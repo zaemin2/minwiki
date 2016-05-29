@@ -26,10 +26,10 @@ define('FS_METHOD', 'direct');
 define('DB_NAME', 'minwiki');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'zaemin2');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'root');
+define('DB_PASSWORD', 'dlwocjf2');
 
 /** MySQL hostname */
 define('DB_HOST', '127.0.0.1');
