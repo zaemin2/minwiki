@@ -63,7 +63,7 @@
 server '52.79.115.139', user: 'ec2-user'
           
 set :ssh_options, {
-    keys: [File.expand_path('~/.ssh/zaemin_access_key.pem')],
+    keys: [File.expand_path('~/.ssh/kalpice2_aws_access_key.pem')],
     forward_agent: true,
     auth_methods: %w(publickey),
     port: 22,
