@@ -60,10 +60,10 @@
 #     # password: 'please use keys'
 #   }
 
-server '52.79.115.139', user: 'ec2-user'
+server 'ec2-user@ec2-35-165-49-27.us-west-2.compute.amazonaws.com', user: 'ec2-user'
           
 set :ssh_options, {
-    keys: [File.expand_path('~/.ssh/kalpice2_aws_access_key.pem')],
+    keys: [File.expand_path('~/.ssh/zaemin3_aws_access.pem')],
     forward_agent: true,
     auth_methods: %w(publickey),
     port: 22,
