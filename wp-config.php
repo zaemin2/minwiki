@@ -23,16 +23,16 @@ define('FS_METHOD', 'direct');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'minwiki');
+define('DB_NAME', 'myblog);
 
 /** MySQL database username */
-define('DB_USER', 'zaemin2');
+define('DB_USER', '******');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'dlwocjf2');
+define('DB_PASSWORD', '********');
 
 /** MySQL hostname */
-define('DB_HOST', '127.0.0.1');
+define('DB_HOST', 'minwiki.c8g5yha4es3n.us-west-2.rds.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
